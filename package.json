@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "git config installer",
   "main": "index.js",
+  "bin": {
+    "git_config_install": "bin/git_config_install.sh"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
